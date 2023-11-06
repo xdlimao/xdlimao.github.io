@@ -1,6 +1,73 @@
 @charset "UTF-8";
+h1 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #38220f;
+  margin: 5.5rem;
+}
+
 body {
   background-color: #ece0d1;
+}
+
+#view {
+  width: 600px;
+  height: 600px;
+  background: #dbc1ac;
+  border: 3px #38220f solid;
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: 1399px) {
+  #view {
+    width: 480px;
+    height: 480px;
+  }
+}
+p {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #38220f;
+}
+
+footer {
+  margin-left: 45%;
+  position: fixed;
+  bottom: 0;
+}
+
+#no-padding {
+  padding: 0;
+}
+
+.quarter-circle, #pizza4, #pizza3, #pizza2, #pizza1 {
+  width: 300px;
+  height: 300px;
+  background-color: #967259;
+  border-radius: 100% 0 0 0;
+  border: 3px #38220f solid;
+  transform: rotate(0deg);
+}
+
+@media screen and (max-width: 1399px) {
+  .quarter-circle, #pizza4, #pizza3, #pizza2, #pizza1 {
+    width: 216px;
+    height: 216px;
+  }
+}
+#pizza1 {
+  transform: rotate(0deg);
+  position: absolute;
+}
+
+#pizza2 {
+  transform: rotate(90deg);
+}
+
+#pizza3 {
+  transform: rotate(270deg);
+}
+
+#pizza4 {
+  transform: rotate(180deg);
 }
 
 /*Paleta de cores usada: https://www.color-hex.com/color-palette/30023*/

@@ -4,8 +4,89 @@ $coffee: #967259;
 $darkcoffe: #634832;
 $darkestcoffee: #38220f;
 
+$px: 600px;
+
+@mixin text-format {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: $darkestcoffee;
+}
+
+h1 {
+    @include text-format();
+    margin: 5.5rem;
+}
+
 body {
     background-color: $lightiestcoffee;
+}
+
+#view {
+    width: $px;
+    height: $px;
+    background: $lightcoffe;
+    border: 3px $darkestcoffee solid;
+    padding: 1.5rem;
+}
+
+@media screen and (max-width: 1399px) {
+
+    #view {
+        width: $px*80/100;
+        height: $px*80/100;
+    }
+}
+
+p {
+    @include text-format();
+}
+
+footer {
+    margin-left: 45%;
+    position: fixed;
+    bottom: 0;
+}
+
+#no-padding {
+    padding: 0;
+}
+
+.quarter-circle {
+    width: $px/2;
+    height: $px/2;
+    background-color: $coffee;
+    border-radius: 100% 0 0 0;
+    border: 3px $darkestcoffee solid;
+    transform: rotate(0deg);
+}
+
+$percentage: 36;
+@media screen and (max-width: 1399px) {
+
+    .quarter-circle {
+        width: $px*$percentage/100;
+        height: $px*$percentage/100;
+    }
+}
+
+#pizza1 {
+    @extend .quarter-circle;
+    transform: rotate(0deg);
+    position: absolute
+}
+
+#pizza2 {
+    @extend .quarter-circle;
+    transform: rotate(90deg);
+}
+
+#pizza3 {
+    @extend .quarter-circle;
+    transform: rotate(270deg);
+}
+
+#pizza4 {
+    @extend .quarter-circle;
+    transform: rotate(180deg);
 }
 
 /*Paleta de cores usada: https://www.color-hex.com/color-palette/30023*/
