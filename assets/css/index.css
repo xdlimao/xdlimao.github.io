@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body {
+  background-color: #ece0d1;
+}
+
+/*Paleta de cores usada: https://www.color-hex.com/color-palette/30023*/
+/*Estou usando Scss. Sass seria Scss sem a formatação identica do CSS que nem nesse arquivo*/
+/*index.css.map é o arquivo que mapea o scss para o css*//*# sourceMappingURL=index.css.map */
