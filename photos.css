@@ -1,0 +1,132 @@
+/*frontend*/
+#htmlcss {
+  margin: -2rem;
+  height: 87.64px;
+  width: 143.4px;
+  margin-left: 0.1rem;
+}
+
+#js {
+  margin: -2rem;
+  height: 95.02px;
+  width: 156.84px;
+}
+
+#bootstrap {
+  margin: -2rem;
+  height: 98px;
+  width: 113px;
+  margin-left: 0.3rem;
+}
+
+#angularts {
+  margin: -2rem;
+  height: 89.4px;
+  width: 170.28px;
+}
+
+#sass {
+  margin: -2rem;
+  height: 98px;
+  width: 98px;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 1399px) {
+  #htmlcss {
+    height: 70.112px;
+    width: 114.72px;
+  }
+  #js {
+    height: 76.016px;
+    width: 125.472px;
+  }
+  #bootstrap {
+    height: 78.4px;
+    width: 90.4px;
+  }
+  #angularts {
+    height: 71.52px;
+    width: 136.224px;
+  }
+  #sass {
+    height: 78.4px;
+    width: 78.4px;
+  }
+}
+/*backend*/
+#spring {
+  margin: -1.4rem;
+  height: 100px;
+  width: 100px;
+}
+
+#androidstudio {
+  margin: -1.4rem;
+  height: 100px;
+  width: 100px;
+}
+
+#nodejs {
+  margin: -1.4rem;
+  height: 110.12px;
+  width: 100px;
+}
+
+#tsql {
+  margin: -1.4rem;
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (max-width: 1399px) {
+  #spring {
+    height: 80px;
+    width: 80px;
+  }
+  #androidstudio {
+    height: 80px;
+    width: 80px;
+  }
+  #nodejs {
+    height: 88.096px;
+    width: 80px;
+  }
+  #tsql {
+    height: 80px;
+    width: 80px;
+  }
+}
+/*eu e projetos*/
+#eu {
+  height: 120px;
+  width: 120px;
+}
+
+#linkedin {
+  margin-left: 5rem;
+  height: 125px;
+  width: 125px;
+}
+
+#github {
+  height: 173px;
+  width: 170px;
+}
+
+@media screen and (max-width: 1399px) {
+  #eu {
+    margin-top: -15px;
+    height: 96px;
+    width: 96px;
+  }
+  #linkedin {
+    height: 100px;
+    width: 100px;
+  }
+  #github {
+    margin-bottom: -18px;
+    height: 138.4px;
+    width: 136px;
+  }
+}/*# sourceMappingURL=photos.css.map */
