@@ -6,24 +6,12 @@
   margin-left: 0.1rem;
 }
 
-@media screen and (max-width: 1399px) {
-  #htmlcss {
-    height: 70.112px;
-    width: 114.72px;
-  }
-}
 #js {
   margin: -2rem;
   height: 95.02px;
   width: 156.84px;
 }
 
-@media screen and (max-width: 1399px) {
-  #js {
-    height: 76.016px;
-    width: 125.472px;
-  }
-}
 #bootstrap {
   margin: -2rem;
   height: 98px;
@@ -31,24 +19,12 @@
   margin-left: 0.3rem;
 }
 
-@media screen and (max-width: 1399px) {
-  #bootstrap {
-    height: 78.4px;
-    width: 90.4px;
-  }
-}
 #angularts {
   margin: -2rem;
   height: 89.4px;
   width: 170.28px;
 }
 
-@media screen and (max-width: 1399px) {
-  #angularts {
-    height: 71.52px;
-    width: 136.224px;
-  }
-}
 #sass {
   margin: -2rem;
   height: 98px;
@@ -57,6 +33,22 @@
 }
 
 @media screen and (max-width: 1399px) {
+  #htmlcss {
+    height: 70.112px;
+    width: 114.72px;
+  }
+  #js {
+    height: 76.016px;
+    width: 125.472px;
+  }
+  #bootstrap {
+    height: 78.4px;
+    width: 90.4px;
+  }
+  #angularts {
+    height: 71.52px;
+    width: 136.224px;
+  }
   #sass {
     width: 78.4px;
     height: 78.4px;
@@ -67,37 +59,31 @@
   margin: -2rem;
 }
 
-@media screen and (max-width: 1399px) {
-  #spring {
-    width: 1px;
-    /*height: calc($px*80/100);*/
-  }
-}
 #androidstudio {
   margin: -2rem;
 }
 
-@media screen and (max-width: 1399px) {
-  #androidstudio {
-    width: 1px;
-    /*height: calc($px*80/100);*/
-  }
-}
 #nodejs {
   margin: -2rem;
 }
 
-@media screen and (max-width: 1399px) {
-  #nodejs {
-    width: 1px;
-    /*height: calc($px*80/100);*/
-  }
-}
 #tsql {
   margin: -2rem;
 }
 
 @media screen and (max-width: 1399px) {
+  #spring {
+    width: 1px;
+    /*height: calc($px*80/100);*/
+  }
+  #androidstudio {
+    width: 1px;
+    /*height: calc($px*80/100);*/
+  }
+  #nodejs {
+    width: 1px;
+    /*height: calc($px*80/100);*/
+  }
   #tsql {
     width: 1px;
     /*height: calc($px*80/100);*/

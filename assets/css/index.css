@@ -117,11 +117,6 @@ h4 {
   margin-left: 6rem;
 }
 
-@media screen and (max-width: 1399px) {
-  h4 {
-    margin-top: -1.1rem;
-  }
-}
 li {
   margin-bottom: 2rem;
 }
@@ -138,12 +133,6 @@ body {
   padding: 2rem;
 }
 
-@media screen and (max-width: 1399px) {
-  #view {
-    width: 480px;
-    height: 480px;
-  }
-}
 .list-group-item {
   background-color: #dbc1ac;
   border-color: #634832;
@@ -206,12 +195,6 @@ footer {
   transform: rotate(0deg);
 }
 
-@media screen and (max-width: 1399px) {
-  .quarter-circle, #pizza4, #pizza3, #pizza2, #pizza1 {
-    width: 216px;
-    height: 216px;
-  }
-}
 #pizza1 {
   transform: rotate(0deg);
   position: absolute;
@@ -229,6 +212,19 @@ footer {
   transform: rotate(180deg);
 }
 
+@media screen and (max-width: 1399px) {
+  h4 {
+    margin-top: -1.1rem;
+  }
+  #view {
+    width: 480px;
+    height: 480px;
+  }
+  .quarter-circle, #pizza1, #pizza2, #pizza3, #pizza4 {
+    width: 216px;
+    height: 216px;
+  }
+}
 /*Paleta de cores usada: https://www.color-hex.com/color-palette/30023*/
 /*Estou usando Scss. Sass seria Scss sem a formatação identica do CSS que nem nesse arquivo*/
 /*index.css.map é o arquivo que mapea o scss para o css*//*# sourceMappingURL=index.css.map */
