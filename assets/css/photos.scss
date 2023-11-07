@@ -1,12 +1,16 @@
-@mixin margin{
-    margin: -2rem;
+@mixin margin ($marginvalue) {
+    margin: $marginvalue;
 }
 
+$pct: 80/100;
+
 /*frontend*/
+$marginfront: -2rem;
+
 $htmlcssheight: 87.64px;
 $htmlcsswidth: 143.4px;
-#htmlcss{
-    @include margin();
+#htmlcss {
+    @include margin($marginfront);
     height: $htmlcssheight;
     width: $htmlcsswidth;
     margin-left: 0.1rem;
@@ -14,16 +18,16 @@ $htmlcsswidth: 143.4px;
 
 $jsheight: 95.02px;
 $jswidth: 156.84px;
-#js{
-    @include margin();
+#js {
+    @include margin($marginfront);
     height: $jsheight;
     width: $jswidth;
 }
 
 $bootstrapheight: 98px;
 $bootstrapwidth: 113px;
-#bootstrap{
-    @include margin();
+#bootstrap {
+    @include margin($marginfront);
     height: $bootstrapheight; 
     width: $bootstrapwidth;
     margin-left: 0.3rem;
@@ -32,15 +36,15 @@ $bootstrapwidth: 113px;
 
 $angulartsheight:89.4px;
 $angularwidth: 170.28px;
-#angularts{
-    @include margin();
+#angularts {
+    @include margin($marginfront);
     height: $angulartsheight; 
     width: $angularwidth;
 }
 
 $pxsass: 98px;
-#sass{
-    @include margin();
+#sass {
+    @include margin($marginfront);
     height: $pxsass; 
     width: $pxsass;
     margin-left: 1rem;
@@ -48,62 +52,97 @@ $pxsass: 98px;
 
 @media screen and (max-width: 1399px) {
     #htmlcss {
-        height: calc($htmlcssheight*80/100);
-        width: calc($htmlcsswidth*80/100);
+        height: calc($htmlcssheight*$pct);
+        width: calc($htmlcsswidth*$pct);
     }
     #js {
-        height: calc($jsheight*80/100);
-        width: calc($jswidth*80/100);
+        height: calc($jsheight*$pct);
+        width: calc($jswidth*$pct);
     }
     #bootstrap {
-        height: calc($bootstrapheight*80/100); 
-        width: calc($bootstrapwidth*80/100);
+        height: calc($bootstrapheight*$pct); 
+        width: calc($bootstrapwidth*$pct);
     }
     #angularts {
-        height: calc($angulartsheight*80/100); 
-        width: calc($angularwidth*80/100);
+        height: calc($angulartsheight*$pct); 
+        width: calc($angularwidth*$pct);
     }
     #sass {
-        width: calc($pxsass*80/100);
-        height: calc($pxsass*80/100);
+        height: calc($pxsass*$pct);
+        width: calc($pxsass*$pct);
     }
 }
 
 /*backend*/
-#spring{
-    @include margin();
+$marginback: -1.4rem;
+
+$springheight: 100px;
+$springwidth: 100px;
+#spring {
+    @include margin($marginback);
+    height: $springheight;
+    width: $springwidth;
 }
 
-#androidstudio{
-    @include margin();
+$androidstudioheight: 100px;
+$androidstudiowidth: 100px;
+#androidstudio {
+    @include margin($marginback);
+    height: $androidstudioheight;
+    width: $androidstudiowidth;
 }
 
-
-#nodejs{
-    @include margin();
+$nodejsheight: 110.12px;
+$nodejswidth: 100px;
+#nodejs {
+    @include margin($marginback);
+    height: $nodejsheight;
+    width: $nodejswidth;
 }
 
-
-#tsql{
-    @include margin();
+$tsqlheight: 100px;
+$tsqlwidth: 100px;
+#tsql {
+    @include margin($marginback);
+    height:  $tsqlheight;
+    width: $tsqlwidth;
 }
 
 @media screen and (max-width: 1399px) {
 
     #spring {
-        width: 1px;
-        /*height: calc($px*80/100);*/
+        height: calc($springheight*pct);
+        width: calc($springwidth*$pct);
     }
     #androidstudio {
-        width: 1px;
-        /*height: calc($px*80/100);*/
+        height: calc($androidstudioheight*$pct);
+        width: calc($androidstudiowidth*$pct);
     }
     #nodejs {
-        width: 1px;
-        /*height: calc($px*80/100);*/
+        height: calc($nodejsheight*pct);
+        width: calc($nodejswidth*$pct);
     }
     #tsql {
-        width: 1px;
-        /*height: calc($px*80/100);*/
+        height:  calc($tsqlheight*$pct);
+        width: calc($tsqlwidth*$pct);
+    }
+}
+
+/*eu e projetos*/
+
+#eu {
+
+}
+
+#github {
+
+}
+
+@media screen and (max-width: 1399px){
+    #eu {
+
+    }
+    #github {
+
     }
 }
