@@ -134,8 +134,11 @@ $tsqlwidth: 100px;
 
 }
 
+$githubheight: 173px;
+$githubwidth: 170px;
 #github {
-
+    height: $githubheight;
+    width: $githubwidth;
 }
 
 @media screen and (max-width: 1399px){
@@ -143,6 +146,8 @@ $tsqlwidth: 100px;
 
     }
     #github {
-
+        margin-bottom: -18px;
+        height: calc($githubheight*$pct);
+        width: calc($githubwidth*$pct);
     }
 }

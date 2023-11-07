@@ -99,11 +99,23 @@
   }
 }
 /*eu e projetos*/
+#github {
+  height: 173px;
+  width: 170px;
+}
+
+@media screen and (max-width: 1399px) {
+  #github {
+    margin-bottom: -18px;
+    height: 138.4px;
+    width: 136px;
+  }
+}
 /*importando do arquivo photos*/
 h1 {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: #38220f;
-  margin: 5.5rem;
+  margin: 5rem;
 }
 
 h4 {

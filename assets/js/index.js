@@ -11,7 +11,7 @@ function frontend(){
 }
 
 function projetos(){
-    content.innerHTML = '<p class="text-center">xdgh</p>'
+    content.innerHTML = '<div class="text-center"> <img src="assets/images/github_logo.png" id="github"> </div> <h1>Venha conferir meus projetos no <a href="https://github.com/xdlimao">github</a>!</h1>'
 }
 
 function backend(){
