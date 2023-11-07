@@ -1,0 +1,138 @@
+@mixin margin{
+    margin: -2rem;
+}
+
+
+
+
+/*frontend*/
+$htmlcssheight: 87.64px;
+$htmlcsswidth: 143.4px;
+#htmlcss{
+    @include margin();
+    height: $htmlcssheight;
+    width: $htmlcsswidth;
+    margin-left: 0.1rem;
+}
+
+@media screen and (max-width: 1399px) {
+
+    #htmlcss {
+        height: calc($htmlcssheight*80/100);
+        width: calc($htmlcsswidth*80/100);
+    }
+}
+
+$jsheight: 95.02px;
+$jswidth: 156.84px;
+#js{
+    @include margin();
+    height: $jsheight;
+    width: $jswidth;
+}
+
+@media screen and (max-width: 1399px) {
+
+    #js {
+        height: calc($jsheight*80/100);
+        width: calc($jswidth*80/100);
+    }
+}
+
+$bootstrapheight: 98px;
+$bootstrapwidth: 113px;
+#bootstrap{
+    @include margin();
+    height: $bootstrapheight; 
+    width: $bootstrapwidth;
+    margin-left: 0.3rem;
+}
+
+@media screen and (max-width: 1399px) {
+
+    #bootstrap {
+        height: calc($bootstrapheight*80/100); 
+        width: calc($bootstrapwidth*80/100);
+    }
+}
+
+$angulartsheight:89.4px;
+$angularwidth: 170.28px;
+#angularts{
+    @include margin();
+    height: $angulartsheight; 
+    width: $angularwidth;
+}
+
+@media screen and (max-width: 1399px) {
+
+    #angularts {
+        height: calc($angulartsheight*80/100); 
+        width: calc($angularwidth*80/100);
+    }
+}
+
+$pxsass: 98px;
+#sass{
+    @include margin();
+    height: $pxsass; 
+    width: $pxsass;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 1399px) {
+
+    #sass {
+        width: calc($pxsass*80/100);
+        height: calc($pxsass*80/100);
+    }
+}
+
+/*backend*/
+#spring{
+    @include margin();
+}
+
+@media screen and (max-width: 1399px) {
+
+    #spring {
+        width: 1px;
+        /*height: calc($px*80/100);*/
+    }
+}
+
+#androidstudio{
+    @include margin();
+}
+
+@media screen and (max-width: 1399px) {
+
+    #androidstudio {
+        width: 1px;
+        /*height: calc($px*80/100);*/
+    }
+}
+
+#nodejs{
+    @include margin();
+}
+
+@media screen and (max-width: 1399px) {
+
+    #nodejs {
+        width: 1px;
+        /*height: calc($px*80/100);*/
+    }
+}
+
+#tsql{
+    @include margin();
+}
+
+@media screen and (max-width: 1399px) {
+
+    #tsql {
+        width: 1px;
+        /*height: calc($px*80/100);*/
+    }
+}
