@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 1399px) {
   #spring {
-    height: calc(100px * pct);
+    height: 80px;
     width: 80px;
   }
   #androidstudio {
@@ -89,7 +89,7 @@
     width: 80px;
   }
   #nodejs {
-    height: calc(110.12px * pct);
+    height: 88.096px;
     width: 80px;
   }
   #tsql {
@@ -98,12 +98,32 @@
   }
 }
 /*eu e projetos*/
+#eu {
+  height: 120px;
+  width: 120px;
+}
+
+#linkedin {
+  margin-left: 5rem;
+  height: 125px;
+  width: 125px;
+}
+
 #github {
   height: 173px;
   width: 170px;
 }
 
 @media screen and (max-width: 1399px) {
+  #eu {
+    margin-top: -15px;
+    height: 96px;
+    width: 96px;
+  }
+  #linkedin {
+    height: 100px;
+    width: 100px;
+  }
   #github {
     margin-bottom: -18px;
     height: 138.4px;

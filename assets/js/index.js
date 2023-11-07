@@ -3,7 +3,7 @@ const content = document.getElementById("contentdiv")
 // Usar ' (apóstrofo) para passar argumentos no HTML e " (aspas) para passar atributos HTML
 
 function quemsoueu(){
-    content.innerHTML = '<p class="text-center">xdeu</p>'
+    content.innerHTML = '<p class="text-center"><img src="assets/images/perfil.png" id="eu"></p> <h4 class="text-center" id="sobremim"> Eu me chamo Daniel! Entusiasta da programação com profundo amor pelo aprendizado autodidata. Estou constantemente em busca de aprimorar minhas habilidades, explorar novas linguagens e tecnologias, e acompanhar as tendências da área. A programação é minha paixão e minha jornada de evolução nunca para, enquanto busco desafios para continuar crescendo e aprimorando minhas habilidades. </h4> <div class="container"> <div class="row"> <div class="col"> <img src="assets/images/linkedin_logo.png" id="linkedin"> </div> <div class="col" style="padding-top: 3rem;"> <h4 class="text-center" style="margin-left: 0;">Veja o meu <a href="https://www.linkedin.com/in/daniel-oliveira-de-souza-156748286">linkedin</a>!</h4> </div> </div> </div>'
 }
 
 function frontend(){

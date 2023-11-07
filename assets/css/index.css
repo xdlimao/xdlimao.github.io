@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 1399px) {
   #spring {
-    height: calc(100px * pct);
+    height: 80px;
     width: 80px;
   }
   #androidstudio {
@@ -90,7 +90,7 @@
     width: 80px;
   }
   #nodejs {
-    height: calc(110.12px * pct);
+    height: 88.096px;
     width: 80px;
   }
   #tsql {
@@ -99,29 +99,52 @@
   }
 }
 /*eu e projetos*/
+#eu {
+  height: 120px;
+  width: 120px;
+}
+
+#linkedin {
+  margin-left: 5rem;
+  height: 125px;
+  width: 125px;
+}
+
 #github {
   height: 173px;
   width: 170px;
 }
 
 @media screen and (max-width: 1399px) {
+  #eu {
+    margin-top: -15px;
+    height: 96px;
+    width: 96px;
+  }
+  #linkedin {
+    height: 100px;
+    width: 100px;
+  }
   #github {
     margin-bottom: -18px;
     height: 138.4px;
     width: 136px;
   }
 }
-/*importando do arquivo photos*/
 h1 {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: #38220f;
   margin: 5rem;
 }
 
-h4 {
+h4, #sobremim {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: #38220f;
   margin-left: 6rem;
+}
+
+#sobremim {
+  margin-left: 0;
 }
 
 li {
@@ -220,7 +243,7 @@ footer {
 }
 
 @media screen and (max-width: 1399px) {
-  h4 {
+  h4, #sobremim {
     margin-top: -1.1rem;
   }
   #view {
@@ -230,6 +253,9 @@ footer {
   .quarter-circle, #pizza1, #pizza2, #pizza3, #pizza4 {
     width: 216px;
     height: 216px;
+  }
+  #sobremim {
+    font-size: larger;
   }
 }
 /*Paleta de cores usada: https://www.color-hex.com/color-palette/30023*/

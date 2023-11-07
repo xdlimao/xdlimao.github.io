@@ -6,7 +6,7 @@ $darkestcoffee: #38220f;
 
 $px: 600px;
 
-@import "photos"; /*importando do arquivo photos*/
+@import "photos";
 
 @mixin text-format {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -21,6 +21,11 @@ h1 {
 h4 {
     @include text-format();
     margin-left: 6rem;
+}
+
+#sobremim {
+    @extend h4;
+    margin-left: 0;
 }
 
 li {
@@ -132,6 +137,9 @@ $percentage: 36;
     .quarter-circle {
         width: calc($px*$percentage/100);
         height: calc($px*$percentage/100);
+    }
+    #sobremim {
+        font-size: larger;
     }
 }
 
