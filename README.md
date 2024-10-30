@@ -1,3 +1,3 @@
 # xdlimao.github.io
 
-utilizei para estudar scss
+utilizei para estudar scss.
